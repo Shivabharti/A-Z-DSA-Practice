@@ -12,10 +12,10 @@ public class LargestElementinArray {
         for(int i=0; i<n; i++){
             arr[i]= sc.nextInt();
         }
-        largestElement(arr, n);
+        largestElement(arr);
     }
 
-    private static void largestElement(int[] arr, int n) {
+    private static void largestElement(int[] arr) {
         int largest= arr[0];
         for(int num: arr){
             if(num>largest){
